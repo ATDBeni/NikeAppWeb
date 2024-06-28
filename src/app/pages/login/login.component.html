@@ -1,1 +1,40 @@
-<p>login works!</p>
+<div class="flex flex-col justify-center items-center">
+    <h3>Your Acount For Eveythink Nike</h3>
+    <!-- <div class="flex flex-col gap-4 w-5/12">
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-checkbox>Accept term and of conditions</mat-checkbox>
+        <button mat-flat-button>Sing-in</button>
+    </div> -->
+
+    <div class="sign-up">
+        <form action="">
+            <mat-form-field >
+                <mat-label>Email</mat-label>
+                <input matInput [(NgModel)]="signupObj.email">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </form>
+    </div>
+    <div class="sign-in">
+        <form action="">
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </form>
+    </div>
+</div>
